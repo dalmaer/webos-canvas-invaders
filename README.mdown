@@ -1,0 +1,18 @@
+Canvas Invaders
+===============
+
+[Jason Brown](http://www.somethinghitme.com/) created [Canvas Invaders](http://www.somethinghitme.com/2009/03/14/quick-canvas-game/) as a way to play with Canvas.
+
+I talked to Jason about porting the app to webOS to test it out and here we are, a quick port.
+
+How do I install this app?
+--------------------------
+
+I haven't tried to put this in the App Catalog yet, so to install it for testing:
+
+* Git clone the puppy
+* [install the webOS SDK](http://developer.palm.com/index.php?option=com_ajaxregister&view=register&sdkdownload)
+* palm-package /path/to/downloaded/webos-canvas-invaders
+* palm-install webos-canvas-invaders*.ipk
+* OR: [palm-run](http://github.com/dalmaer/palm-run) /path/to/downloaded/webos-canvas-invaders
+

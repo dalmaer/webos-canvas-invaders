@@ -1,0 +1,9 @@
+{
+	"id": "canvasinvaders",
+	"version": "1.0.0",
+	"vendor": "Dion Almaer",
+	"type": "web",
+	"main": "index.html",
+	"title": "Canvas Invaders",
+	"icon": "icon.png"
+}

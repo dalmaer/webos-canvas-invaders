@@ -1,0 +1,63 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+}
+
+body
+{
+    color: #ffffff;
+	font-family: arial;
+    font-size: 12px;
+}
+
+#game_container {
+	top: 0px;
+	left: 0px;
+	position: relative;
+	width: 320px;
+	height: 480px;
+}
+
+#invaders-canvas, #background-canvas
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#background-canvas{
+	background: #000;
+}
+
+#hud{
+	font-size: 1.6em;
+	width: 320px;
+/*  height: 350px;*/
+	height: 480px;
+	color: #fff;
+	font-weight: bold;
+	position: absolute; 
+	top: 6px; 
+	left: 6px;
+}
+
+#gameover{
+	display: none;
+	margin-top: 150px;
+/*  width: 570px;*/
+	width: 320px;
+	text-align: center;
+	font-size: 2.2em;
+}
+
+.score,.lives{
+	width: 70%;
+	float: right;
+}
+
+.lives{
+	width: 30%;
+}	
